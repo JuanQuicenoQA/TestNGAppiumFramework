@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Error Text -->
+    <string name="error_invalid_username_or_password">Provided credentials do not match any user in this service.</string>
+    <string name="product_title">Products</string>
+</resources>
