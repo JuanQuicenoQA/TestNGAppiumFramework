@@ -26,3 +26,24 @@
 [DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:53.066 LoginTest:66 - 
 ************* End Test ******************
 
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:22:58.843 BaseTest:140 - iOS appUrl is: /Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/src/test/resources/apps/MyRNDemoApp.app
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:23:02.796 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:23:03.842 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:23:03.853 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:23:39.245 BaseTest:140 - iOS appUrl is: /Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/src/test/resources/apps/MyRNDemoApp.app
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:23:42.631 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:23:43.690 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:23:43.701 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:28:56.553 BaseTest:140 - iOS appUrl is: /Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/src/test/resources/apps/MyRNDemoApp.app

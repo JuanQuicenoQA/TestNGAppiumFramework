@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.299" tests="14" errors="0" skipped="12" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.862" tests="14" errors="0" skipped="12" failures="2">
   <properties>
-    <property name="java.specification.version" value="19"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/target/test-classes:/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/target/classes:/Users/juanquiceno/.m2/repository/io/appium/java-client/8.3.0/java-client-8.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/juanquiceno/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/juanquiceno/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/juanquiceno/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/juanquiceno/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/juanquiceno/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/juanquiceno/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/juanquiceno/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/juanquiceno/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/juanquiceno/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/juanquiceno/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/Users/juanquiceno/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/juanquiceno/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/juanquiceno/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/juanquiceno/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/juanquiceno/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/juanquiceno/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/juanquiceno/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/juanquiceno/.m2/repository/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.jar:/Users/juanquiceno/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/juanquiceno/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/juanquiceno/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/juanquiceno/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/juanquiceno/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/juanquiceno/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/juanquiceno/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/juanquiceno/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/juanquiceno/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/juanquiceno/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/target/test-classes:/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/target/classes:/Users/juanquiceno/.m2/repository/io/appium/java-client/8.3.0/java-client-8.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/juanquiceno/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/juanquiceno/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/juanquiceno/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/juanquiceno/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/juanquiceno/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/juanquiceno/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/juanquiceno/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/juanquiceno/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/juanquiceno/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/juanquiceno/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/Users/juanquiceno/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/juanquiceno/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/juanquiceno/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/juanquiceno/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/juanquiceno/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/juanquiceno/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/juanquiceno/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/juanquiceno/.m2/repository/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.jar:/Users/juanquiceno/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/juanquiceno/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/juanquiceno/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/juanquiceno/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/juanquiceno/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/juanquiceno/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/juanquiceno/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/juanquiceno/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/juanquiceno/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/juanquiceno/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="user.timezone" value="America/Bogota"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="19"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
-    <property name="sun.boot.library.path" value="/Users/juanquiceno/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/target/surefire/surefirebooter-20230314195417272_3.jar /Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/target/surefire 2023-03-14T19-54-17_070-jvmRun1 surefire-20230314195417272_1tmp surefire_0-20230314195417272_2tmp"/>
+    <property name="sun.boot.library.path" value="/Users/juanquiceno/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/target/surefire/surefirebooter-20230314202238250_3.jar /Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/target/surefire 2023-03-14T20-22-38_040-jvmRun1 surefire-20230314202238250_1tmp surefire_0-20230314202238250_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/target/test-classes:/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/target/classes:/Users/juanquiceno/.m2/repository/io/appium/java-client/8.3.0/java-client-8.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/juanquiceno/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/juanquiceno/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/juanquiceno/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/juanquiceno/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/juanquiceno/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/juanquiceno/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/juanquiceno/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/juanquiceno/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/juanquiceno/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/juanquiceno/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/Users/juanquiceno/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/juanquiceno/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/juanquiceno/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/juanquiceno/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/juanquiceno/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/juanquiceno/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/juanquiceno/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/juanquiceno/.m2/repository/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.jar:/Users/juanquiceno/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/juanquiceno/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/juanquiceno/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/juanquiceno/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/juanquiceno/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/juanquiceno/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/juanquiceno/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/juanquiceno/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/juanquiceno/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/juanquiceno/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/target/test-classes:/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/target/classes:/Users/juanquiceno/.m2/repository/io/appium/java-client/8.3.0/java-client-8.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/juanquiceno/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/juanquiceno/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/juanquiceno/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/juanquiceno/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/juanquiceno/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/juanquiceno/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/juanquiceno/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/juanquiceno/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/juanquiceno/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/juanquiceno/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/juanquiceno/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/juanquiceno/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/juanquiceno/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/juanquiceno/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/juanquiceno/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/juanquiceno/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/juanquiceno/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/Users/juanquiceno/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/juanquiceno/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/juanquiceno/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/juanquiceno/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/juanquiceno/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/juanquiceno/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/juanquiceno/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/juanquiceno/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/juanquiceno/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/juanquiceno/.m2/repository/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.jar:/Users/juanquiceno/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/juanquiceno/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/juanquiceno/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/juanquiceno/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/juanquiceno/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/juanquiceno/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/juanquiceno/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/juanquiceno/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/juanquiceno/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/juanquiceno/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/juanquiceno/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/juanquiceno"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2023-01-17"/>
-    <property name="java.home" value="/Users/juanquiceno/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home"/>
+    <property name="java.home" value="/Users/juanquiceno/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework"/>
+    <property name="basedir" value="/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/target/surefire/surefirebooter-20230314195417272_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/target/surefire/surefirebooter-20230314202238250_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="java.runtime.version" value="17.0.6+10-LTS"/>
     <property name="user.name" value="juanquiceno"/>
-    <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="12.6.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.6.10.1"/>
     <property name="localRepository" value="/Users/juanquiceno/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
     <property name="java.io.tmpdir" value="/var/folders/y4/lsybx5vs2gb13f0rb75y41qr0000gn/T/"/>
-    <property name="java.version" value="19.0.2"/>
-    <property name="user.dir" value="/Users/juanquiceno/IdeaProjects/TestNGAppiumFramework"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/juanquiceno/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.6+10-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="63.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="beforeMethod[public void com.qa.tests.LoginTest.invalidUserName()](0)" classname="com.qa.tests.LoginTest" time="17.95">
+  <testcase name="beforeMethod[public void com.qa.tests.LoginTest.invalidUserName()](0)" classname="com.qa.tests.LoginTest" time="17.456">
     <failure type="java.lang.ExceptionInInitializerError"><![CDATA[java.lang.ExceptionInInitializerError
 	at io.appium.java_client.pagefactory.utils.ProxyFactory.getEnhancedProxy(ProxyFactory.java:53)
 	at io.appium.java_client.pagefactory.utils.ProxyFactory.getEnhancedProxy(ProxyFactory.java:33)
@@ -72,8 +71,10 @@
 	at com.qa.base.BaseTest.<init>(BaseTest.java:67)
 	at com.qa.pages.MenuPage.<init>(MenuPage.java:9)
 	at com.qa.tests.LoginTest.beforeMethod(LoginTest.java:33)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
@@ -106,13 +107,13 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-Caused by: net.sf.cglib.core.CodeGenerationException: java.lang.reflect.InaccessibleObjectException-->Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @5cc73178
+Caused by: net.sf.cglib.core.CodeGenerationException: java.lang.reflect.InaccessibleObjectException-->Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @2013a92c
 	at net.sf.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:464)
 	at net.sf.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:339)
 	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:96)
 	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:94)
 	at net.sf.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at net.sf.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
 	at net.sf.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
 	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:119)
@@ -121,69 +122,68 @@ Caused by: net.sf.cglib.core.CodeGenerationException: java.lang.reflect.Inaccess
 	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:174)
 	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:153)
 	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:73)
-	... 46 more
-Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @5cc73178
-	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:387)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:363)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:311)
-	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:201)
-	at java.base/java.lang.reflect.Method.setAccessible(Method.java:195)
+	... 48 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @2013a92c
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
 	at net.sf.cglib.core.ReflectUtils$1.run(ReflectUtils.java:61)
 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
 	at net.sf.cglib.core.ReflectUtils.<clinit>(ReflectUtils.java:52)
 	at net.sf.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:243)
 	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
 	at net.sf.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:332)
-	... 58 more
+	... 60 more
 ]]></failure>
     <system-out><![CDATA[****** Appium server started **********
 &amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.0-beta.55
 &amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
 [debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver
-&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver xcuitest...
-[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver
-&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:4723
-&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
-&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.12.3 (automationName 'UiAutomator2')
-&amp#27;[35m[Appium]&amp#27;[39m   - xcuitest@4.16.12 (automationName 'XCUITest')
-&amp#27;[35m[Appium]&amp#27;[39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[Appium] Attempting to load driver xcuitest...
+[debug] [Appium] Requiring driver at /Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[Appium] Available drivers:
+[Appium]   - uiautomator2@2.12.3 (automationName 'UiAutomator2')
+[Appium]   - xcuitest@4.16.12 (automationName 'XCUITest')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 &amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.55"}}
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m7 ms - 47&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
-[INFO ] 2023-03-14 19:54:24.022 com.qa.base.BaseTest:125 - Android appUrl is: /Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/src/test/resources/apps/Android-MyDemoAppRN.1.3.0.build-244.apk
-[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: 4d831958-33f8-4dae-966c-b832d90a8775
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {}
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.55"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- GET /status 200 9 ms - 47
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+[INFO ] 2023-03-14 20:22:45.258 com.qa.base.BaseTest:125 - Android appUrl is: /Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/src/test/resources/apps/Android-MyDemoAppRN.1.3.0.build-244.apk
+[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: 8503ff65-0bfc-4935-9870-d8eaa487cbb2
 &amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appium:automationName":"uiautomator2","appium:avd":"Pixel_6_Pro","appium:avdLaunchTimeout":200000,"appium:newCommandTimeout":300,"appium:platformVersion":"13.0","platformName":"android"}}}&amp#27;[39m
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appium:automationName":"uiautomator2","appium:avd":"Pixel_6_Pro","appium:avdLaunchTimeout":200000,"appium:newCommandTimeout":300,"appium:platformVersion":"13.0","platformName":"android"}}]
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Event 'newSessionRequested' logged at 1678841664584 (19:54:24 GMT-0500 (Colombia Standard Time))
-&amp#27;[35m[Appium]&amp#27;[39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
-&amp#27;[35m[Appium]&amp#27;[39m The 'uiautomator2' driver was installed and matched caps.
-&amp#27;[35m[Appium]&amp#27;[39m Will require it at /Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver
-[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Appium v2.0.0-beta.55 creating new AndroidUiautomator2Driver (v2.12.3) session
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Appium's BaseDriver version is 9.3.1
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.3.1
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m Creating session with W3C capabilities: {
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m   "alwaysMatch": {
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "platformName": "android",
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "appium:appActivity": "com.saucelabs.mydemoapp.rn.MainActivity",
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "appium:appPackage": "com.saucelabs.mydemoapp.rn",
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "appium:automationName": "uiautomator2",
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "appium:avd": "Pixel_6_Pro",
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "appium:avdLaunchTimeout": 200000,
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "appium:newCommandTimeout": 300,
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     "appium:platformVersion": "13.0"
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m   },
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m   "firstMatch": [
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m     {}
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m   ]
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5]&amp#27;[0m }
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Session created with session id: 91b08b32-a93d-40e0-89f7-d20abf8a37e3
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Starting 'com.saucelabs.mydemoapp.rn' directly on the device
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appium:automationName":"uiautomator2","appium:avd":"Pixel_6_Pro","appium:avdLaunchTimeout":200000,"appium:newCommandTimeout":300,"appium:platformVersion":"13.0","platformName":"android"}}}
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appium:appPackage":"com.saucelabs.mydemoapp.rn","appium:automationName":"uiautomator2","appium:avd":"Pixel_6_Pro","appium:avdLaunchTimeout":200000,"appium:newCommandTimeout":300,"appium:platformVersion":"13.0","platformName":"android"}}]
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Event 'newSessionRequested' logged at 1678843365778 (20:22:45 GMT-0500 (Colombia Standard Time))
+[Appium] Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[Appium] The 'uiautomator2' driver was installed and matched caps.
+[Appium] Will require it at /Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver
+[debug] [Appium] Requiring driver at /Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Appium v2.0.0-beta.55 creating new AndroidUiautomator2Driver (v2.12.3) session
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Appium's BaseDriver version is 9.3.1
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.3.1
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m Creating session with W3C capabilities: {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m   "alwaysMatch": {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "platformName": "android",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "appium:appActivity": "com.saucelabs.mydemoapp.rn.MainActivity",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "appium:appPackage": "com.saucelabs.mydemoapp.rn",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "appium:automationName": "uiautomator2",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "appium:avd": "Pixel_6_Pro",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "appium:avdLaunchTimeout": 200000,
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "appium:newCommandTimeout": 300,
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     "appium:platformVersion": "13.0"
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m   },
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m   "firstMatch": [
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m     {}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m   ]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61]&amp#27;[0m }
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Session created with session id: d71eed27-cf42-4402-8c1b-7214a334fb7f
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Starting 'com.saucelabs.mydemoapp.rn' directly on the device
 &amp#27;[38;5;48m[ADB]&amp#27;[0m Found 3 'build-tools' folders under '/Users/juanquiceno/Library/Android/sdk' (newest first):
 &amp#27;[38;5;48m[ADB]&amp#27;[0m     /Users/juanquiceno/Library/Android/sdk/build-tools/34.0.0-rc1
 &amp#27;[38;5;48m[ADB]&amp#27;[0m     /Users/juanquiceno/Library/Android/sdk/build-tools/33.0.2
@@ -210,7 +210,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Current device property 'ro.build.version.release': 13
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Device API level: 33
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Relaxing hidden api policy
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Relaxing hidden api policy
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
 &amp#27;[38;5;64m[AndroidDriver]&amp#27;[0m No app sent in, not parsing package/activity
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
@@ -228,7 +228,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
 [debug] &amp#27;[38;5;64m[AndroidDriver]&amp#27;[0m io.appium.settings is already running. There is no need to reset its permissions.
 [debug] &amp#27;[38;5;80m[Logcat]&amp#27;[0m Starting logs capture with command: /Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Forwarding UiAutomator2 Server port 6790 to local port 8200
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Forwarding system: 8200 to device: 6790
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting install status for io.appium.uiautomator2.server
@@ -237,7 +237,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting package info for 'io.appium.uiautomator2.server'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.7.7' >= '5.7.7')
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m io.appium.uiautomator2.server installation state: sameVersionInstalled
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Checking app cert for /Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.7.apk
 &amp#27;[38;5;48m[ADB]&amp#27;[0m Using 'apksigner.jar' from '/Users/juanquiceno/Library/Android/sdk/build-tools/34.0.0-rc1/lib/apksigner.jar'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Starting apksigner: /Users/juanquiceno/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/juanquiceno/Library/Android/sdk/build-tools/34.0.0-rc1/lib/apksigner.jar verify --print-certs /Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.7.apk
@@ -260,88 +260,85 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m 
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
 &amp#27;[38;5;48m[ADB]&amp#27;[0m '/Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Server packages are not going to be (re)installed
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Waiting up to 30000ms for services to be available
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Server packages are not going to be (re)installed
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Waiting up to 30000ms for services to be available
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
 &amp#27;[38;5;48m[ADB]&amp#27;[0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m No app capability. Assuming it is already on the device
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m No app capability. Assuming it is already on the device
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting install status for com.saucelabs.mydemoapp.rn
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m 'com.saucelabs.mydemoapp.rn' is installed
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;64m[AndroidDriver]&amp#27;[0m Performed fast reset on the installed 'com.saucelabs.mydemoapp.rn' application (stop and clear)
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Performing shallow cleanup of automation leftovers
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m No obsolete sessions have been detected (socket hang up)
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m No obsolete sessions have been detected (socket hang up)
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Starting UIAutomator2 server 5.7.7
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Using UIAutomator2 server from '/Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.7.apk' and test from '/Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Waiting up to 30000ms for UiAutomator2 to be online...
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Starting UIAutomator2 server 5.7.7
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Using UIAutomator2 server from '/Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.7.apk' and test from '/Users/juanquiceno/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Waiting up to 30000ms for UiAutomator2 to be online...
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m socket hang up
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m socket hang up
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m socket hang up
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m socket hang up
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m socket hang up
 [debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m socket hang up
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m socket hang up
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m The initialization of the instrumentation process took 5134ms
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/session' to command name 'createSession'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0"},"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Got response with status 200: {"sessionId":"efaf1c84-061b-453c-ad87-ddd1d80776fb","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0"},"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"efaf1c84-061b-453c-ad87-ddd1d80776fb"}}
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Determined the downstream protocol as 'W3C'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/efaf1c84-061b-453c-ad87-ddd1d80776fb/appium/device/info] with no body
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Got response with status 200: {"sessionId":"efaf1c84-061b-453c-ad87-ddd1d80776fb","value":{"androidId":"50b959f854bedd22","apiVersion":"33","bluetooth":{"state":"OFF"},"brand":"google","carrierName":"","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"13","realDisplaySize":"1440x3120","timeZone":"America/Bogota"}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m socket hang up
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m socket hang up
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m The initialization of the instrumentation process took 4157ms
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0"},"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Got response with status 200: {"sessionId":"d7931663-6dc2-4a3e-b4b2-341820748015","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0"},"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"d7931663-6dc2-4a3e-b4b2-341820748015"}}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/d7931663-6dc2-4a3e-b4b2-341820748015/appium/device/info] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Got response with status 200: {"sessionId":"d7931663-6dc2-4a3e-b4b2-341820748015","value":{"androidId":"50b959f854bedd22","apiVersion":"33","bluetooth":{"state":"OFF"},"brand":"google","carrierName":"","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"13","realDisplaySize":"1440x3120","timeZone":"America/Bogota"}}
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
 &amp#27;[38;5;64m[AndroidDriver]&amp#27;[0m Screen already unlocked, doing nothing
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Starting 'com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity and waiting for 'com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Starting 'com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity and waiting for 'com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.saucelabs.mydemoapp.rn/com.saucelabs.mydemoapp.rn.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/efaf1c84-061b-453c-ad87-ddd1d80776fb/appium/device/pixel_ratio] with no body
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Got response with status 200: {"sessionId":"efaf1c84-061b-453c-ad87-ddd1d80776fb","value":3.5}
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/efaf1c84-061b-453c-ad87-ddd1d80776fb/appium/device/system_bars] with no body
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Got response with status 200: {"sessionId":"efaf1c84-061b-453c-ad87-ddd1d80776fb","value":{"statusBar":136}}
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/efaf1c84-061b-453c-ad87-ddd1d80776fb/window/current/size] with no body
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Got response with status 200: {"sessionId":"efaf1c84-061b-453c-ad87-ddd1d80776fb","value":{"height":2900,"width":1440}}
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m New AndroidUiautomator2Driver session created successfully, session 91b08b32-a93d-40e0-89f7-d20abf8a37e3 added to master session list
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Event 'newSessionStarted' logged at 1678841675069 (19:54:35 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Cached the protocol value 'W3C' for the new session 91b08b32-a93d-40e0-89f7-d20abf8a37e3
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0"},"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":33,"deviceScreenSize":"1440x3120","deviceScreenDensity":560,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pixelRatio":3.5,"statBarHeight":136,"viewportRect":{"left":0,"top":136,"width":1440,"height":2764}}}
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m10488 ms - 1084&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/activate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Calling AppiumDriver.activateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"91b08b32-a93d-40e0-89f7-d20abf8a37e3"]
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Activating 'com.saucelabs.mydemoapp.rn'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/d7931663-6dc2-4a3e-b4b2-341820748015/appium/device/pixel_ratio] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Got response with status 200: {"sessionId":"d7931663-6dc2-4a3e-b4b2-341820748015","value":3.5}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/d7931663-6dc2-4a3e-b4b2-341820748015/appium/device/system_bars] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Got response with status 200: {"sessionId":"d7931663-6dc2-4a3e-b4b2-341820748015","value":{"statusBar":136}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/d7931663-6dc2-4a3e-b4b2-341820748015/window/current/size] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Got response with status 200: {"sessionId":"d7931663-6dc2-4a3e-b4b2-341820748015","value":{"height":2900,"width":1440}}
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m New AndroidUiautomator2Driver session created successfully, session d71eed27-cf42-4402-8c1b-7214a334fb7f added to master session list
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Event 'newSessionStarted' logged at 1678843375560 (20:22:55 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Cached the protocol value 'W3C' for the new session d71eed27-cf42-4402-8c1b-7214a334fb7f
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13.0"},"platformName":"android","appActivity":"com.saucelabs.mydemoapp.rn.MainActivity","appPackage":"com.saucelabs.mydemoapp.rn","automationName":"uiautomator2","avd":"Pixel_6_Pro","avdLaunchTimeout":200000,"newCommandTimeout":300,"platformVersion":"13","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":33,"deviceScreenSize":"1440x3120","deviceScreenDensity":560,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pixelRatio":3.5,"statBarHeight":136,"viewportRect":{"left":0,"top":136,"width":1440,"height":2764}}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session 200 9784 ms - 1084
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/activate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Calling AppiumDriver.activateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"d71eed27-cf42-4402-8c1b-7214a334fb7f"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Activating 'com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package resolve-activity --brief com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.saucelabs.mydemoapp.rn/.MainActivity'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.saucelabs.mydemoapp.rn/.MainActivity }
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Responding to client with driver.activateApp() result: null
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/activate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m227 ms - 14&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.saucelabs.mydemoapp.rn/.MainActivity }
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Responding to client with driver.activateApp() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/activate_app 200 173 ms - 14
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="beforeMethod[public void com.qa.tests.LoginTest.invalidUserName()](0)" classname="com.qa.tests.LoginTest" time="4.557">
+  <testcase name="beforeMethod[public void com.qa.tests.LoginTest.invalidUserName()](0)" classname="com.qa.tests.LoginTest" time="5.679">
     <failure message="Could not initialize class net.sf.cglib.proxy.Enhancer" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class net.sf.cglib.proxy.Enhancer
 	at io.appium.java_client.pagefactory.utils.ProxyFactory.getEnhancedProxy(ProxyFactory.java:53)
 	at io.appium.java_client.pagefactory.utils.ProxyFactory.getEnhancedProxy(ProxyFactory.java:33)
@@ -355,8 +352,10 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 	at com.qa.base.BaseTest.<init>(BaseTest.java:67)
 	at com.qa.pages.MenuPage.<init>(MenuPage.java:9)
 	at com.qa.tests.LoginTest.beforeMethod(LoginTest.java:33)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
@@ -389,150 +388,134 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-Caused by: java.lang.ExceptionInInitializerError: Exception net.sf.cglib.core.CodeGenerationException: java.lang.reflect.InaccessibleObjectException-->Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @5cc73178 [in thread "main"]
-	at net.sf.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:464)
-	at net.sf.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:339)
-	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:96)
-	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:94)
-	at net.sf.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at net.sf.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
-	at net.sf.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
-	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:119)
-	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:294)
-	at net.sf.cglib.core.KeyFactory$Generator.create(KeyFactory.java:221)
-	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:174)
-	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:153)
-	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:73)
-	... 46 more
 ]]></failure>
-    <system-out><![CDATA[&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mDELETE&amp#27;[39m &amp#27;[37m/session/91b08b32-a93d-40e0-89f7-d20abf8a37e3&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Calling AppiumDriver.deleteSession() with args: ["91b08b32-a93d-40e0-89f7-d20abf8a37e3"]
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Event 'quitSessionRequested' logged at 1678841676726 (19:54:36 GMT-0500 (Colombia Standard Time))
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Removing session 91b08b32-a93d-40e0-89f7-d20abf8a37e3 from our master session list
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Deleting UiAutomator2 session
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Deleting UiAutomator2 server session
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Matched '/' to command name 'deleteSession'
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/efaf1c84-061b-453c-ad87-ddd1d80776fb] with no body
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Got response with status 200: {"sessionId":"efaf1c84-061b-453c-ad87-ddd1d80776fb","value":null}
+    <system-out><![CDATA[&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mDELETE&amp#27;[39m &amp#27;[37m/session/d71eed27-cf42-4402-8c1b-7214a334fb7f&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Calling AppiumDriver.deleteSession() with args: ["d71eed27-cf42-4402-8c1b-7214a334fb7f"]
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Event 'quitSessionRequested' logged at 1678843377182 (20:22:57 GMT-0500 (Colombia Standard Time))
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Removing session d71eed27-cf42-4402-8c1b-7214a334fb7f from our master session list
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Deleting UiAutomator2 session
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Deleting UiAutomator2 server session
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Matched '/' to command name 'deleteSession'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/d7931663-6dc2-4a3e-b4b2-341820748015] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Got response with status 200: {"sessionId":"d7931663-6dc2-4a3e-b4b2-341820748015","value":null}
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;80m[Logcat]&amp#27;[0m Stopping logcat capture
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Removing forwarded port socket connection: 8200 
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Restoring hidden api policy to the device default configuration
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Restoring hidden api policy to the device default configuration
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Event 'quitSessionFinished' logged at 1678841677327 (19:54:37 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Received response: null
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m But deleting session, so not returning
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Responding to client with driver.deleteSession() result: null
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- DELETE /session/91b08b32-a93d-40e0-89f7-d20abf8a37e3 &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m602 ms - 14&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
 [debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m .
-[INFO ] 2023-03-14 19:54:37.547 com.qa.base.BaseTest:140 - iOS appUrl is: /Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/src/test/resources/apps/MyRNDemoApp.app
-[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: 2b120c54-1604-4258-8f25-7ccdb2f31cb7
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Event 'quitSessionFinished' logged at 1678843378512 (20:22:58 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Received response: null
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m But deleting session, so not returning
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Responding to client with driver.deleteSession() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- DELETE /session/d71eed27-cf42-4402-8c1b-7214a334fb7f 200 1331 ms - 14
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+[INFO ] 2023-03-14 20:22:58.843 com.qa.base.BaseTest:140 - iOS appUrl is: /Users/juanquiceno/Documents/GitHub/TestNGAppiumFramework/src/test/resources/apps/MyRNDemoApp.app
+[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: bada578b-1f24-402e-ac85-edcc6f9a1d96
 &amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.mydemoapp.rn","appium:deviceName":"iPhone 14 Pro Max","appium:newCommandTimeout":300,"appium:platformVersion":"16.2","appium:simulatorStartupTimeout":200000,"platformName":"ios"}}}&amp#27;[39m
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.mydemoapp.rn","appium:deviceName":"iPhone 14 Pro Max","appium:newCommandTimeout":300,"appium:platformVersion":"16.2","appium:simulatorStartupTimeout":200000,"platformName":"ios"}}]
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Event 'newSessionRequested' logged at 1678841677556 (19:54:37 GMT-0500 (Colombia Standard Time))
-&amp#27;[35m[Appium]&amp#27;[39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
-&amp#27;[35m[Appium]&amp#27;[39m The 'xcuitest' driver was installed and matched caps.
-&amp#27;[35m[Appium]&amp#27;[39m Will require it at /Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver
-[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Appium v2.0.0-beta.55 creating new XCUITestDriver (v4.16.12) session
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Checking BaseDriver versions for Appium and XCUITestDriver
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Appium's BaseDriver version is 9.3.1
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m XCUITestDriver's BaseDriver version is 9.3.1
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m Creating session with W3C capabilities: {
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m   "alwaysMatch": {
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     "platformName": "ios",
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     "appium:automationName": "XCUITest",
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     "appium:bundleId": "com.saucelabs.mydemoapp.rn",
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     "appium:deviceName": "iPhone 14 Pro Max",
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     "appium:newCommandTimeout": 300,
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     "appium:platformVersion": "16.2",
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     "appium:simulatorStartupTimeout": 200000
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m   },
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m   "firstMatch": [
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m     {}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m   ]
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b]&amp#27;[0m }
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Session created with session id: 6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.mydemoapp.rn","appium:deviceName":"iPhone 14 Pro Max","appium:newCommandTimeout":300,"appium:platformVersion":"16.2","appium:simulatorStartupTimeout":200000,"platformName":"ios"}}}
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.mydemoapp.rn","appium:deviceName":"iPhone 14 Pro Max","appium:newCommandTimeout":300,"appium:platformVersion":"16.2","appium:simulatorStartupTimeout":200000,"platformName":"ios"}}]
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Event 'newSessionRequested' logged at 1678843378856 (20:22:58 GMT-0500 (Colombia Standard Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver
+[debug] [Appium] Requiring driver at /Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Appium v2.0.0-beta.55 creating new XCUITestDriver (v4.16.12) session
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Checking BaseDriver versions for Appium and XCUITestDriver
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Appium's BaseDriver version is 9.3.1
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m XCUITestDriver's BaseDriver version is 9.3.1
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m Creating session with W3C capabilities: {
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m   "alwaysMatch": {
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     "platformName": "ios",
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     "appium:automationName": "XCUITest",
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     "appium:bundleId": "com.saucelabs.mydemoapp.rn",
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     "appium:deviceName": "iPhone 14 Pro Max",
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     "appium:newCommandTimeout": 300,
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     "appium:platformVersion": "16.2",
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     "appium:simulatorStartupTimeout": 200000
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m   },
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m   "firstMatch": [
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m     {}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m   ]
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560]&amp#27;[0m }
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Session created with session id: ba175872-da4f-4588-b448-53a12b4142e0
 [debug] &amp#27;[38;5;128m[XCUITest]&amp#27;[0m Current user: 'juanquiceno'
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m iOS SDK Version set to '16.2'
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m iOS SDK Version set to '16.2'
 &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Constructing iOS simulator for Xcode version 14.2 with udid '7818179C-26F1-4267-A8DA-85B4FDB956D0'
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Determining device to run tests on: udid: '7818179C-26F1-4267-A8DA-85B4FDB956D0', real device: false
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'xcodeDetailsRetrieved' logged at 1678841677863 (19:54:37 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'appConfigured' logged at 1678841677864 (19:54:37 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'resetStarted' logged at 1678841677864 (19:54:37 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m Time: 7.392
-[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m 
-[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m OK (1 test)
-[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m The process has exited with code 0
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Determining device to run tests on: udid: '7818179C-26F1-4267-A8DA-85B4FDB956D0', real device: false
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'xcodeDetailsRetrieved' logged at 1678843379273 (20:22:59 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'appConfigured' logged at 1678843379274 (20:22:59 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'resetStarted' logged at 1678843379274 (20:22:59 GMT-0500 (Colombia Standard Time))
 [debug] &amp#27;[38;5;160m[simctl]&amp#27;[0m Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
 The operation couldn���t be completed. found nothing to terminate
 found nothing to terminate
 &amp#27;[38;5;128m[XCUITest]&amp#27;[0m Reset: failed to terminate Simulator application with id "com.saucelabs.mydemoapp.rn"
-&amp#27;[38;5;144m[iOSSim]&amp#27;[0m Found 9 com.saucelabs.mydemoapp.rn app files to scrub
+&amp#27;[38;5;144m[iOSSim]&amp#27;[0m Found 10 com.saucelabs.mydemoapp.rn app files to scrub
+[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m Time: 8.182
+[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m 
+[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m OK (1 test)
 [debug] &amp#27;[38;5;160m[simctl]&amp#27;[0m Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
 The operation couldn���t be completed. found nothing to terminate
 found nothing to terminate
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'resetComplete' logged at 1678841678368 (19:54:38 GMT-0500 (Colombia Standard Time))
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Using WDA path: '/Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Using WDA agent: '/Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'resetComplete' logged at 1678843379937 (20:22:59 GMT-0500 (Colombia Standard Time))
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Using WDA path: '/Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Using WDA agent: '/Users/juanquiceno/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] &amp#27;[38;5;96m[Instrumentation]&amp#27;[0m The process has exited with code 0
 [debug] &amp#27;[38;5;176m[IOSSimulatorLog]&amp#27;[0m Starting log capture for iOS Simulator with udid '7818179C-26F1-4267-A8DA-85B4FDB956D0' using simctl
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'logCaptureStarted' logged at 1678841678723 (19:54:38 GMT-0500 (Colombia Standard Time))
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Setting up simulator
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'logCaptureStarted' logged at 1678843380374 (20:23:00 GMT-0500 (Colombia Standard Time))
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Setting up simulator
 [debug] &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Setting preferences of 7818179C-26F1-4267-A8DA-85B4FDB956D0 Simulator to {"ConnectHardwareKeyboard":false}
 [debug] &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
-[debug] &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Updated 7818179C-26F1-4267-A8DA-85B4FDB956D0 Simulator preferences at '/Users/juanquiceno/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"7818179C-26F1-4267-A8DA-85B4FDB956D0":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"SimulatorWindowGeometry":{"CF1CE52D-09E1-4C3B-8124-5646048E22E9":{"WindowCenter":"{252, 570}","WindowScale":1}}}}}
-[debug] &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Got Simulator UI client PID: 29209
+[debug] &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Updated 7818179C-26F1-4267-A8DA-85B4FDB956D0 Simulator preferences at '/Users/juanquiceno/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"7818179C-26F1-4267-A8DA-85B4FDB956D0":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"CF1CE52D-09E1-4C3B-8124-5646048E22E9":{"WindowCenter":"{252, 570}","WindowScale":1}},"SimulatorWindowRotationAngle":0,"ChromeTint":""}}}
+[debug] &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Got Simulator UI client PID: 31242
 &amp#27;[38;5;144m[iOSSim]&amp#27;[0m Both Simulator with UDID '7818179C-26F1-4267-A8DA-85B4FDB956D0' and the UI client are currently running
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'simStarted' logged at 1678841679169 (19:54:39 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'simStarted' logged at 1678843380737 (20:23:00 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
 &amp#27;[38;5;192m[DevCon Factory]&amp#27;[0m Requesting connection for device 7818179C-26F1-4267-A8DA-85B4FDB956D0 on local port 8100
 [debug] &amp#27;[38;5;192m[DevCon Factory]&amp#27;[0m Cached connections count: 0
 &amp#27;[38;5;192m[DevCon Factory]&amp#27;[0m Successfully requested the connection for 7818179C-26F1-4267-A8DA-85B4FDB956D0:8100
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
 [debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Matched '/status' to command name 'getStatus'
 [debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-[debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.2"},"ios":{"simulatorVersion":"16.2","ip":"192.168.1.3"},"ready":true,"build":{"upgradedAt":"1676305612634","time":"Mar  7 2023 09:51:06","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Upgrade timestamp of the currently bundled WDA: 1676305612634
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Upgrade timestamp of the WDA on the device: 1676305612634
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Trying to start WebDriverAgent 2 times with 10000ms interval
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'wdaStartAttempted' logged at 1678841679464 (19:54:39 GMT-0500 (Colombia Standard Time))
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.2"},"ios":{"simulatorVersion":"16.2","ip":"192.168.1.3"},"ready":true,"build":{"upgradedAt":"1676305612634","time":"Mar 14 2023 20:16:45","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Upgrade timestamp of the currently bundled WDA: 1676305612634
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Upgrade timestamp of the WDA on the device: 1676305612634
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'wdaStartAttempted' logged at 1678843381024 (20:23:01 GMT-0500 (Colombia Standard Time))
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
 [debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Matched '/status' to command name 'getStatus'
 [debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-[debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.2"},"ios":{"simulatorVersion":"16.2","ip":"192.168.1.3"},"ready":true,"build":{"upgradedAt":"1676305612634","time":"Mar  7 2023 09:51:06","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'wdaSessionAttempted' logged at 1678841679468 (19:54:39 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Sending createSession command to WDA
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Matched '/session' to command name 'createSession'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.saucelabs.mydemoapp.rn","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Got response with status 200: {"value":{"sessionId":"49059542-1831-4AEF-A945-261CD72221FA","capabilities":{"device":"iphone","browserName":"My Demo App","sdkVersion":"16.2","CFBundleIdentifier":"com.saucelabs.mydemoapp.rn"}},"sessionId":"49059542-1831-4AEF-A945-261CD72221FA"}
-&amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Determined the downstream protocol as 'W3C'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'wdaSessionStarted' logged at 1678841681138 (19:54:41 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Event 'wdaStarted' logged at 1678841681138 (19:54:41 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;208m[WD Proxy]&amp#27;[0m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.2"},"ios":{"simulatorVersion":"16.2","ip":"192.168.1.3"},"ready":true,"build":{"upgradedAt":"1676305612634","time":"Mar 14 2023 20:16:45","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'wdaSessionAttempted' logged at 1678843381028 (20:23:01 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Sending createSession command to WDA
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.saucelabs.mydemoapp.rn","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Got response with status 200: {"value":{"sessionId":"68787ADC-E99A-470A-B687-A96A16F5475D","capabilities":{"device":"iphone","browserName":"My Demo App","sdkVersion":"16.2","CFBundleIdentifier":"com.saucelabs.mydemoapp.rn"}},"sessionId":"68787ADC-E99A-470A-B687-A96A16F5475D"}
+&amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'wdaSessionStarted' logged at 1678843382747 (20:23:02 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Event 'wdaStarted' logged at 1678843382747 (20:23:02 GMT-0500 (Colombia Standard Time))
 [debug] &amp#27;[38;5;224m[BaseDriver]&amp#27;[0m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
 [debug] &amp#27;[38;5;224m[BaseDriver]&amp#27;[0m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
-&amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m New XCUITestDriver session created successfully, session 6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463 added to master session list
-[debug] &amp#27;[38;5;16m[AppiumDriver@efd1]&amp#27;[0m Event 'newSessionStarted' logged at 1678841681139 (19:54:41 GMT-0500 (Colombia Standard Time))
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Cached the protocol value 'W3C' for the new session 6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","automationName":"XCUITest","bundleId":"com.saucelabs.mydemoapp.rn","deviceName":"iPhone 14 Pro Max","newCommandTimeout":300,"platformVersion":"16.2","simulatorStartupTimeout":200000,"udid":"7818179C-26F1-4267-A8DA-85B4FDB956D0"}}
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3584 ms - 525&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/activate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Calling AppiumDriver.activateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463"]
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Executing command 'activateApp'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Proxying [POST /wda/apps/launch] to [POST http://127.0.0.1:8100/session/49059542-1831-4AEF-A945-261CD72221FA/wda/apps/launch] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Got response with status 200: {"value":null,"sessionId":"49059542-1831-4AEF-A945-261CD72221FA"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Responding to client with driver.activateApp() result: null
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/activate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m37 ms - 14&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m New XCUITestDriver session created successfully, session ba175872-da4f-4588-b448-53a12b4142e0 added to master session list
+[debug] &amp#27;[38;5;16m[AppiumDriver@4270]&amp#27;[0m Event 'newSessionStarted' logged at 1678843382748 (20:23:02 GMT-0500 (Colombia Standard Time))
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Cached the protocol value 'W3C' for the new session ba175872-da4f-4588-b448-53a12b4142e0
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","automationName":"XCUITest","bundleId":"com.saucelabs.mydemoapp.rn","deviceName":"iPhone 14 Pro Max","newCommandTimeout":300,"platformVersion":"16.2","simulatorStartupTimeout":200000,"udid":"7818179C-26F1-4267-A8DA-85B4FDB956D0"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session 200 3893 ms - 525
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/activate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Calling AppiumDriver.activateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"ba175872-da4f-4588-b448-53a12b4142e0"]
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Executing command 'activateApp'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Proxying [POST /wda/apps/launch] to [POST http://127.0.0.1:8100/session/68787ADC-E99A-470A-B687-A96A16F5475D/wda/apps/launch] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Got response with status 200: {"value":null,"sessionId":"68787ADC-E99A-470A-B687-A96A16F5475D"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Responding to client with driver.activateApp() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/activate_app 200 31 ms - 14
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
   </testcase>
   <testcase name="invalidUserName" classname="com.qa.tests.LoginTest" time="0">
@@ -543,77 +526,77 @@ found nothing to terminate
   </testcase>
   <testcase name="beforeMethod" classname="com.qa.tests.LoginTest" time="0">
     <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-03-14 19:54:35.620 com.qa.tests.LoginTest:66 - 
+    <system-out><![CDATA[[INFO ] 2023-03-14 20:22:56.109 com.qa.tests.LoginTest:66 - 
 ************* End Test ******************
 
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/terminate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"91b08b32-a93d-40e0-89f7-d20abf8a37e3"]
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Terminating 'com.saucelabs.mydemoapp.rn'
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/terminate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"d71eed27-cf42-4402-8c1b-7214a334fb7f"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Terminating 'com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting IDs of all 'com.saucelabs.mydemoapp.rn' processes
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.saucelabs\.mydemoapp\.rn\(\[\[:blank:\]\]\|\$\)'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.saucelabs.mydemoapp.rn'
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Querying the state of 'com.saucelabs.mydemoapp.rn'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Querying the state of 'com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting install status for com.saucelabs.mydemoapp.rn
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m 'com.saucelabs.mydemoapp.rn' is installed
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting IDs of all 'com.saucelabs.mydemoapp.rn' processes
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.saucelabs\.mydemoapp\.rn\(\[\[:blank:\]\]\|\$\)'
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m 'com.saucelabs.mydemoapp.rn' has been successfully terminated
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Responding to client with driver.terminateApp() result: true
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/terminate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m944 ms - 14&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m 'com.saucelabs.mydemoapp.rn' has been successfully terminated
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Responding to client with driver.terminateApp() result: true
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/terminate_app 200 934 ms - 14
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
   </testcase>
   <testcase name="beforeMethod" classname="com.qa.tests.LoginTest" time="0">
     <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-03-14 19:54:36.571 com.qa.tests.LoginTest:66 - 
+    <system-out><![CDATA[[INFO ] 2023-03-14 20:22:57.051 com.qa.tests.LoginTest:66 - 
 ************* End Test ******************
 
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/terminate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"91b08b32-a93d-40e0-89f7-d20abf8a37e3"]
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Terminating 'com.saucelabs.mydemoapp.rn'
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/terminate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"d71eed27-cf42-4402-8c1b-7214a334fb7f"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Terminating 'com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting IDs of all 'com.saucelabs.mydemoapp.rn' processes
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.saucelabs\.mydemoapp\.rn\(\[\[:blank:\]\]\|\$\)'
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m The app 'com.saucelabs.mydemoapp.rn' is not running
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/terminate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m62 ms - 15&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m The app 'com.saucelabs.mydemoapp.rn' is not running
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/terminate_app 200 57 ms - 15
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
   </testcase>
   <testcase name="beforeMethod" classname="com.qa.tests.LoginTest" time="0">
     <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-03-14 19:54:41.197 com.qa.tests.LoginTest:66 - 
+    <system-out><![CDATA[[INFO ] 2023-03-14 20:23:02.796 com.qa.tests.LoginTest:66 - 
 ************* End Test ******************
 
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/terminate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463"]
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Executing command 'terminateApp'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:8100/session/49059542-1831-4AEF-A945-261CD72221FA/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Parsed BUILD_DIR configuration value: '/Users/juanquiceno/Library/Developer/Xcode/DerivedData/WebDriverAgent-fcheqqzyophumbdczwucgddfcpcr/Build/Products'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Got derived data root: '/Users/juanquiceno/Library/Developer/Xcode/DerivedData/WebDriverAgent-fcheqqzyophumbdczwucgddfcpcr'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Got response with status 200: {"value":true,"sessionId":"49059542-1831-4AEF-A945-261CD72221FA"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Responding to client with driver.terminateApp() result: true
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/terminate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1070 ms - 14&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/terminate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"ba175872-da4f-4588-b448-53a12b4142e0"]
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Executing command 'terminateApp'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:8100/session/68787ADC-E99A-470A-B687-A96A16F5475D/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Parsed BUILD_DIR configuration value: '/Users/juanquiceno/Library/Developer/Xcode/DerivedData/WebDriverAgent-fcheqqzyophumbdczwucgddfcpcr/Build/Products'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Got derived data root: '/Users/juanquiceno/Library/Developer/Xcode/DerivedData/WebDriverAgent-fcheqqzyophumbdczwucgddfcpcr'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Got response with status 200: {"value":true,"sessionId":"68787ADC-E99A-470A-B687-A96A16F5475D"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Responding to client with driver.terminateApp() result: true
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/terminate_app 200 1041 ms - 14
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
   </testcase>
   <testcase name="beforeMethod" classname="com.qa.tests.LoginTest" time="0">
     <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-03-14 19:54:42.272 com.qa.tests.LoginTest:66 - 
+    <system-out><![CDATA[[INFO ] 2023-03-14 20:23:03.842 com.qa.tests.LoginTest:66 - 
 ************* End Test ******************
 
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/terminate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463"]
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Executing command 'terminateApp'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:8100/session/49059542-1831-4AEF-A945-261CD72221FA/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Got response with status 200: {"value":false,"sessionId":"49059542-1831-4AEF-A945-261CD72221FA"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/terminate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m6 ms - 15&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/terminate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"ba175872-da4f-4588-b448-53a12b4142e0"]
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Executing command 'terminateApp'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:8100/session/68787ADC-E99A-470A-B687-A96A16F5475D/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Got response with status 200: {"value":false,"sessionId":"68787ADC-E99A-470A-B687-A96A16F5475D"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/terminate_app 200 5 ms - 15
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
   </testcase>
   <testcase name="invalidUserPassword" classname="com.qa.tests.LoginTest" time="0">
@@ -630,35 +613,35 @@ found nothing to terminate
   </testcase>
   <testcase name="afterClass" classname="com.qa.tests.LoginTest" time="0">
     <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-03-14 19:54:36.639 com.qa.tests.LoginTest:66 - 
+    <system-out><![CDATA[[INFO ] 2023-03-14 20:22:57.116 com.qa.tests.LoginTest:66 - 
 ************* End Test ******************
 
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/terminate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"91b08b32-a93d-40e0-89f7-d20abf8a37e3"]
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Terminating 'com.saucelabs.mydemoapp.rn'
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/terminate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"d71eed27-cf42-4402-8c1b-7214a334fb7f"]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Terminating 'com.saucelabs.mydemoapp.rn'
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Getting IDs of all 'com.saucelabs.mydemoapp.rn' processes
 [debug] &amp#27;[38;5;48m[ADB]&amp#27;[0m Running '/Users/juanquiceno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.saucelabs\.mydemoapp\.rn\(\[\[:blank:\]\]\|\$\)'
-&amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m The app 'com.saucelabs.mydemoapp.rn' is not running
-[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@b0f5 (91b08b32)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/91b08b32-a93d-40e0-89f7-d20abf8a37e3/appium/device/terminate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m75 ms - 15&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m The app 'com.saucelabs.mydemoapp.rn' is not running
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@bc61 (d71eed27)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/d71eed27-cf42-4402-8c1b-7214a334fb7f/appium/device/terminate_app 200 53 ms - 15
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
   </testcase>
   <testcase name="afterClass" classname="com.qa.tests.LoginTest" time="0">
     <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-03-14 19:54:42.283 com.qa.tests.LoginTest:66 - 
+    <system-out><![CDATA[[INFO ] 2023-03-14 20:23:03.853 com.qa.tests.LoginTest:66 - 
 ************* End Test ******************
 
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/terminate_app&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"bundleId":"com.saucelabs.mydemoapp.rn"}&amp#27;[39m
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463"]
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Executing command 'terminateApp'
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:8100/session/49059542-1831-4AEF-A945-261CD72221FA/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Got response with status 200: {"value":false,"sessionId":"49059542-1831-4AEF-A945-261CD72221FA"}
-[debug] &amp#27;[38;5;112m[XCUITestDriver@9d4b (6b6e3d73)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/6b6e3d73-16ec-4507-b3bf-eb7b6d2d5463/appium/device/terminate_app &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m6 ms - 15&amp#27;[39m
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/terminate_app&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Calling AppiumDriver.terminateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"ba175872-da4f-4588-b448-53a12b4142e0"]
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Executing command 'terminateApp'
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:8100/session/68787ADC-E99A-470A-B687-A96A16F5475D/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.mydemoapp.rn"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Got response with status 200: {"value":false,"sessionId":"68787ADC-E99A-470A-B687-A96A16F5475D"}
+[debug] &amp#27;[38;5;112m[XCUITestDriver@a560 (ba175872)]&amp#27;[0m Responding to client with driver.terminateApp() result: false
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/ba175872-da4f-4588-b448-53a12b4142e0/appium/device/terminate_app 200 6 ms - 15
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
 ]]></system-out>
   </testcase>
 </testsuite>
