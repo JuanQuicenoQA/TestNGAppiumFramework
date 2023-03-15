@@ -1,0 +1,28 @@
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:01:20.086 BaseTest:125 - Android appUrl is: /Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/src/test/resources/apps/Android-MyDemoAppRN.1.3.0.build-244.apk
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:01:59.999 LoginTest:42 - 
+************* Start Test ******************
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:01:59.999 LoginTest:43 - Test name: invalidUserName
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:02.030 BaseTest:199 - Login with: invalidUserName
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:05.438 BaseTest:199 - Password: 10203040
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:07.605 BaseTest:191 - Press login button
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:10.669 BaseTest:224 - Error text is: Provided credentials do not match any user in this service.
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:10.673 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:40.664 LoginTest:42 - 
+************* Start Test ******************
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:40.664 LoginTest:43 - Test name: invalidUserPassword
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:41.912 BaseTest:199 - Login with: bob@example.com
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:43.260 BaseTest:199 - Password: 00000
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:44.424 BaseTest:191 - Press login button
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:45.193 BaseTest:224 - Error text is: Provided credentials do not match any user in this service.
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:45.194 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:53.784 LoginTest:42 - 
+************* Start Test ******************
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:53.784 LoginTest:43 - Test name: successfullyLogin
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:02:57.702 BaseTest:224 - Title page is: Products
+[DevicesLogs/Android_13.0_Pixel 6 Pro INFO ] 2023-03-14 20:03:01.475 LoginTest:66 - 
+************* End Test ******************
+

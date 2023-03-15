@@ -1,0 +1,28 @@
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:02.482 BaseTest:140 - iOS appUrl is: /Users/juanquiceno/IdeaProjects/TestNGAppiumFramework/src/test/resources/apps/MyRNDemoApp.app
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:11.624 LoginTest:42 - 
+************* Start Test ******************
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:11.624 LoginTest:43 - Test name: invalidUserName
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:12.645 BaseTest:199 - Login with: invalidUserName
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:15.918 BaseTest:199 - Password: 10203040
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:17.847 BaseTest:191 - Press login button
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:19.672 BaseTest:224 - Error text is: Provided credentials do not match any user in this service.
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:19.673 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:28.265 LoginTest:42 - 
+************* Start Test ******************
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:28.266 LoginTest:43 - Test name: invalidUserPassword
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:29.461 BaseTest:199 - Login with: bob@example.com
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:33.085 BaseTest:199 - Password: 00000
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:34.915 BaseTest:191 - Press login button
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:36.796 BaseTest:224 - Error text is: Provided credentials do not match any user in this service.
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:36.797 LoginTest:66 - 
+************* End Test ******************
+
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:45.265 LoginTest:42 - 
+************* Start Test ******************
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:45.266 LoginTest:43 - Test name: successfullyLogin
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:48.833 BaseTest:224 - Title page is: Products
+[DevicesLogs/iOS_16.2_iPhone 14 Pro Max INFO ] 2023-03-14 20:03:53.066 LoginTest:66 - 
+************* End Test ******************
+

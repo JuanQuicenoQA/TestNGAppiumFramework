@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+            <listeners>
+                <listener class-name="com.qa.listeners.TestListener"/>
+            </listeners>
+    <test name="AndroidTests">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="platformVersion" value="13.0"/>
+        <parameter name="deviceName" value="Pixel 6 Pro"/>
+        <parameter name="avd" value="Pixel_6_Pro"/>
+        <classes>
+            <class name="com.qa.tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="iOSTests">
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="platformVersion" value="16.2"/>
+        <parameter name="deviceName" value="iPhone 14 Pro Max"/>
+        <classes>
+            <class name="com.qa.tests.LoginTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
